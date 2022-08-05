@@ -4,7 +4,7 @@ Python script that traverses a folder structure using a depth-first search algor
 
 ## Variable breakdown
 
-`root_folder` is the root folder where the DLC you want to copy is located. It can have any number of subfolders and it will still only copy the DLC files, not the folder structure.
+`root_folder` is the root folder where the DLC you want to copy is located. It can have any number of subfolders and it will only copy the DLC files, not the folder structure.
 
 `target_folder` is Rocksmith's default DLC folder. Should look like `..\Rocksmith2014\dlc`
 
