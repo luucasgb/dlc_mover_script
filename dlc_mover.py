@@ -2,7 +2,7 @@ from genericpath import isfile
 import os
 import shutil
 
-main_folder = "E:\\Torrents\\Rocksmith DLC"
+root_folder = "E:\\Torrents\\Rocksmith DLC"
 target_folder = "D:\\Lucas\\Downloads\\Teste"
 count = [0]
 
@@ -18,5 +18,5 @@ def traverse_folder_structure(path, x):
 				x[0] += 1
 				shutil.copy2(current_item, target_folder)
 
-traverse_folder_structure(main_folder, count)
+traverse_folder_structure(root_folder, count)
 print("{} files were moved.}".format(count))
