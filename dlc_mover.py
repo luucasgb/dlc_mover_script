@@ -2,10 +2,10 @@ import os
 import shutil
 
 # Folder from where DLC should be copied
-root_folder = "E:\\Torrents\\Rocksmith DLC"
+root_folder = "E:\\Rocksmith DLC"
 
 # Folder where Rocksmith DLC is stored
-target_folder = "D:\\Lucas\\Downloads\\Teste"
+target_folder = "D:\\Steam\\steamapps\\common\\Rocksmith2014\\dlc"
 
 # Array with a single item, used to keep a count of files moved by script
 moved_files = [0]
